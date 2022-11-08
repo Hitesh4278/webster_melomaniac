@@ -58,76 +58,112 @@ body {
   } */
 
 
-.bar {
+.bottom {
 
-  position: fixed;
+  position: sticky;
   bottom: 0px;
-  margin-left: 500px;
-  margin-bottom: 10px;
-
-  
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
 
 }
 
-#MusicBar {
-  width: 1000px;
+#musicBar{
+ width: 80vw;
+ text-align: center;
 }
 
- .icons
+.icons
 {
- margin-left: 475px;
-    cursor: pointer;
-    
+ margin-top: 14px;
+}
+
+.icons i{
+  cursor: pointer;
 }
 
 .container
 {
   background-color: black;
-  color: hotpink;
-  height: 700px;
+  color: rgb(128, 128, 10);
+  height: 650px;
 
   margin: 50px 300px;
   border-radius: 10px;
-  /* text-align: center; */
-
+  
   padding: 1px 15px;
+  
+  min-height: 70vh;
   
 }
 
 
 .container img 
 { 
-  margin-top:25px;
+
+  position: fixed;
+  margin-top:15px;
+  margin-left: 5px;
    float: right;
   height: 500px;
   padding: 2px;
-
-
+  left:600px;
+  border-radius: 20px;
 }
 
 .SongsItem
 {
-    
+    position: relative;
     display: flex;
     background-color: white;
-    width: 020%;
-    justify-content: space-between;
-    align-content: center;
+    width: 18%;
+    justify-content:space-around;
+     align-content: center;
+    align-items: center;
     padding: 5px 5px;
-
-    margin: 10px 0px;
+    margin: 10px 6px;
     border-radius: 10px;
-       
+    height: 25px;
+
+    
     
 }
+.SongsItem span{
+  position: relative;
+}
+
+
 .SongsItem img
 {
-  height: 40px;
-  border-radius: 5px;
-
-  margin: 0px 10px;
+  position: relative;
+  height: 30px;
+  border-radius: 8px;
+  margin: 0px 20px;
+  left: 3px;
+  
 
   
 }
+.songinfo
+{  position: relative;
+  bottom: 40px;
 
+  left: 80px;
+}
+
+.bar img
+{
+
+  position: relative;
+  height: 18px;
+  width: 50px;
+  top: 5px;
+  right: 500px;
+
+  
+}
 
