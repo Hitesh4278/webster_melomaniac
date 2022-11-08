@@ -73,12 +73,14 @@ body {
 }
 
 #musicBar{
+
  width: 80vw;
  text-align: center;
 }
 
 .icons
 {
+
  margin-top: 14px;
 }
 
@@ -150,9 +152,9 @@ body {
 }
 .songinfo
 {  position: relative;
-  bottom: 40px;
+  bottom:40px;
 
-  left: 80px;
+  right:200px;
 }
 
 .bar img
@@ -165,5 +167,13 @@ body {
   right: 500px;
 
   
+}
+
+.songinfo img
+{
+   position: relative;
+  top: 10px;
+  height: 30px;
+  right: 265px;
 }
 
