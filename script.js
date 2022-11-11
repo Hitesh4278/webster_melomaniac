@@ -18,12 +18,12 @@ let songs = [
     { songname: "Sage -Ritviz", filePath: "songs/1.mp3", coverPath: "cover/2.jpg" },
     { songname: "Phenomenon -NCS", filePath: "songs/2.mp3", coverPath: "cover/2.jpg" },
     { songname: "Aaj Na -Ritivz", filePath: "songs/3.mp3", coverPath: "cover/2.jpg" },
-    { songname: "Dirty-Palm-Oblivion-Ft-Micah-Martin-ncs", filePath: "songs/4.mp3", coverPath: "cover/2.jpg" },
+    { songname: "Dirty-Palm-Oblivion", filePath: "songs/4.mp3", coverPath: "cover/2.jpg" },
     { songname: "Elektronomia-Vitality-NCS-Release", filePath: "songs/5.mp3", coverPath: "cover/2.jpg" },
-    { songname: "Jim-Yosef-Arrow-NCS-Release", filePath: "songs/6.mp3", coverPath: "cover/2.jpg" },
+    { songname: "Jim-Yosef-Arrow-NCS", filePath: "songs/6.mp3", coverPath: "cover/2.jpg" },
     { songname: "Tobu-Hope-NCS-Release", filePath: "songs/7.mp3", coverPath: "cover/2.jpg" },
     { songname: "Unison-Aperture-NCS-Release", filePath: "songs/8.mp3", coverPath: "cover/2.jpg" },
-    { songname: "Tobu-Good-Times-NCS-Release", filePath: "songs/9.mp3", coverPath: "cover/32.jpg" },
+    { songname: "Tobu-Good-Times-NCS-Release", filePath: "songs/9.mp3", coverPath: "cover/2.jpg" },
 
 
 ]
@@ -41,7 +41,7 @@ masterplay.addEventListener('click', () => {
         audioelement.play();
         masterplay.classList.remove('fa-play-circle');
         masterplay.classList.add('fa-pause-circle');
-        gif.style.opacity = 1;
+        gif.style.opacity = 0.8;
     }
     else {
         audioelement.pause();
