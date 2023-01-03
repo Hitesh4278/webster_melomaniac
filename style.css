@@ -162,3 +162,31 @@ body {
 {
   cursor: pointer;
 }
+
+
+
+
+.contact{
+  color: black;
+  background-color:rgb(216, 250, 250);
+  height: 500px;
+  margin: 120px  400px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 50px;  
+  box-shadow:inset;
+}
+
+#contacticons{
+  /* color: black; */
+  /* background-color: white; */
+  margin: 85px ;
+  /* padding-left: 10px; */
+  
+}
+#contacticons a{
+  padding-left: 20px;
+}
+#contacticons :hover{
+  color: rgb(203, 192, 242);
+}
